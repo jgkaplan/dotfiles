@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Joshua Kaplan
+	email = joshuagraykaplan@gmail.com
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.gitignore
