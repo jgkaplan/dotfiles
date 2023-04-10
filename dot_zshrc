@@ -86,7 +86,8 @@ alias calc='noglob eva'
 alias julia="/Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia"
 alias also="$HOME/Documents/School\ Stuff/2020-2021/Spring\ Semester/research/also/src/also"
 alias che='chezmoi'
-alias reload='source ~/.zshrc'
+alias reload='exec $SHELL'
+#alias reload='source ~/.zshrc'
 
 #####################
 # PATH              #
